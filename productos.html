@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/stiles.css">
+    <script src="https://kit.fontawesome.com/ec225a767d.js" crossorigin="anonymous"></script>
+
+    <title>Catalogo</title>
+
+</head>
+
+<body>
+    <div class="contenedor1">
+        <div class="css_grid">
+
+            <div class="logo">
+                <h1>FC</h1>
+                <h2>Distribuciones</h2>
+            </div>
+            <!-- <div class="boton-carrito">
+                <header class="header">
+                    <div class="container12">
+                        <div class="row">
+                            <div class="two columns13 u-pull-right">
+                                <ul>
+                                    <div class="carrito-boton">
+                                        <p class="texto-pedido">Pedido </p>
+                                        <li class="submenu">
+                                            <img src="../img/cart.png" alt="">
+                                            <div id="carrito">
+                                                <table id="lista-carrito" class="u-full-width">
+                                                    <thead>
+                                                        <tr>
+                                                            <th></th>
+                                                            <th>Producto</th>
+                                                            <th>Precio</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+
+                                                    </tbody>
+                                                </table>
+                                                <a href="#" id="vaciar-carrito" class="button u-full-width">vaciar carrito</a>
+                                            </div>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </div> -->
+            <div class="container ">
+                <input onkeyup="search_animal()" type="text" name="search" id="searchbar" class="form-control" placeholder="Buscar">
+                <button class="btn btn-info " id="boton"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+        </div>
+    </div>
+    <section id="lista-platillos" class="img">
+        <div id="item" class="row">
+            <ol id="list" class="css_grid3 products-list items2">
+                <li class="animals">
+
+                    <div class="container_img product-item card">
+                        <div class="four columns13">
+                            <div class="card">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/Aceite Gulf 20w50.png" alt="Aceite_STIHL_GL">
+                                <div class="info_card">
+                                    <p>
+                                        <h4>Aceite Gulf 20W50 LT</h4>
+                                    </p>
+                                    <div class="container_grid">
+                                        <div class="contenedor_precio">
+                                            <p class="texto_precio">Precio</p>
+                                            <p class="precio"><span>$3.65</span></p>
+                                        </div>
+                                        <!-- <div class="stock_container">
+                                            <p class="Stock">Stock:</p>
+                                            <p class="Disponible-agotado">Disponible</p>
+                                        </div> -->
+                                    </div>
+                                    <!-- <div class="descripcion-">
+                                        <h3 class="Titulo_desc">Descripcion</h3>
+                                        <p class="parrafo-desc">Lorem ipsum dolor sit</p>
+                                    </div> -->
+                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Pedido</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+                <li class="animals">
+                    <div class="container_img product-item card">
+                        <div class="four columns13">
+                            <div class="card">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/aceite gulf 10w30 lt.png" alt="Aceite_STIHL_GL">
+                                <div class="info_card">
+                                    <p>
+                                        <h4>Aceite Gulf 10W30 LT</h4>
+                                    </p>
+                                    <div class="container_grid">
+                                        <div class="contenedor_precio">
+                                            <p class="texto_precio">Precio</p>
+                                            <p class="precio"><span>$3.65</span></p>
+                                        </div>
+                                        <!-- <div class="stock_container">
+                                            <p class="Stock">Stock:</p>
+                                            <p class="Disponible-agotado">Disponible</p>
+                                        </div> -->
+                                    </div>
+                                    <!-- <div class="descripcion-">
+                                        <h3 class="Titulo_desc">Descripcion</h3>
+                                        <p class="parrafo-desc">Lorem ipsum dolor sit</p>
+                                    </div> -->
+                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="animals">
+                    <div class="container_img product-item card">
+                        <div class="four columns13">
+                            <div class="card">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/aceite gulf 2 Tiempos lt.png" alt="Aceite_STIHL_GL">
+                                <div class="info_card">
+                                    <p>
+                                        <h4>Aceite 2 Tiempos LT</h4>
+                                    </p>
+                                    <div class="container_grid">
+                                        <div class="contenedor_precio">
+                                            <p class="texto_precio">Precio</p>
+                                            <p class="precio"><span>$3.48</span></p>
+                                        </div>
+                                        <!-- <div class="stock_container">
+                                            <p class="Stock">Stock:</p>
+                                            <p class="Disponible-agotado">Disponible</p>
+                                        </div> -->
+                                    </div>
+                                    <!-- <div class="descripcion-">
+                                        <h3 class="Titulo_desc">Descripcion</h3>
+                                        <p class="parrafo-desc">Lorem ipsum dolor sit</p>
+                                    </div> -->
+                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Pedido</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="animals">
+                    <div class="container_img product-item card">
+                        <div class="four columns13">
+                            <div class="card">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/aceite gulf Max 40 lt.png" alt="Aceite_STIHL_GL">
+                                <div class="info_card">
+                                    <p>
+                                        <h4>Aceite Gulf Max40 LT</h4>
+                                    </p>
+                                    <div class="container_grid">
+                                        <div class="contenedor_precio">
+                                            <p class="texto_precio">Precio</p>
+                                            <p class="precio"><span>$3.48</span></p>
+                                        </div>
+                                        <!-- <div class="stock_container">
+                                            <p class="Stock">Stock:</p>
+                                            <p class="Disponible-agotado">Disponible</p>
+                                        </div> -->
+                                    </div>
+                                    <!-- <div class="descripcion-">
+                                        <h3 class="Titulo_desc">Descripcion</h3>
+                                        <p class="parrafo-desc">Lorem ipsum dolor sit</p>
+                                    </div> -->
+                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Pedido</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="animals">
+                    <div class="container_img product-item card">
+                        <div class="four columns13">
+                            <div class="card">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/aceite gulf Gear EP 90 lt.png" alt="Aceite_STIHL_GL">
+                                <div class="info_card">
+                                    <p>
+                                        <h4>Aceite GearEP-90 LT</h4>
+                                    </p>
+                                    <div class="container_grid">
+                                        <div class="contenedor_precio">
+                                            <p class="texto_precio">Precio</p>
+                                            <p class="precio"><span>$3.48</span></p>
+                                        </div>
+                                        <!-- <div class="stock_container">
+                                            <p class="Stock">Stock:</p>
+                                            <p class="Disponible-agotado">Disponible</p>
+                                        </div> -->
+                                        <!-- </div>
+                                    <div class="descripcion-">
+                                        <h3 class="Titulo_desc">Descripcion</h3>
+                                        <p class="parrafo-desc">Lorem ipsum dolor sit</p>
+                                    </div> -->
+                                        <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Pedido</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </li>
+                <li class="animals">
+                    <div class="container_img product-item card">
+                        <div class="four columns13">
+                            <div class="card">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/Glifopac GL.png" alt="Glifopac GL">
+                                <div class="info_card">
+                                    <p>
+                                        <h4>Glifopac GL</h4>
+                                    </p>
+                                    <div class="container_grid">
+                                        <div class="contenedor_precio">
+                                            <p class="texto_precio">Precio</p>
+                                            <p class="precio"><span>No Disponible</span></p>
+                                        </div>
+                                        <!-- <div class="stock_container">
+                                            <p class="Stock">Stock:</p>
+                                            <p class="Disponible-agotado">Disponible</p>
+                                        </div> -->
+                                    </div>
+                                    <!-- <div class="descripcion-">
+                                        <h3 class="Titulo_desc">Descripcion</h3>
+                                        <p class="parrafo-desc">Lorem ipsum dolor sit</p>
+                                    </div> -->
+                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Pedido</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="animals">
+                    <div class="container_img product-item card">
+                        <div class="four columns13">
+                            <div class="card">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/Glifopac Litro.png" alt="Glifopac LT">
+                                <div class="info_card">
+                                    <p>
+                                        <h4>Glifopac LT</h4>
+                                    </p>
+                                    <div class="container_grid">
+                                        <div class="contenedor_precio">
+                                            <p class="texto_precio">Precio Promoión</p>
+                                            <p class="precio"><span>$8.95</span></p>
+                                        </div>
+                                        <!-- <div class="stock_container">
+                                            <p class="Stock">Stock:</p>
+                                            <p class="Disponible-agotado">Disponible</p>
+                                        </div> -->
+                                    </div>
+                                    <!-- <div class="descripcion-">
+                                        <h3 class="Titulo_desc">Descripcion</h3>
+                                        <p class="parrafo-desc">Lorem ipsum dolor sit</p>
+                                    </div> -->
+                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Pedido</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="animals">
+                    <div class="container_img product-item card">
+                        <div class="four columns13">
+                            <div class="card">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/Glifopac pequeño.png" alt="Glifopac 1/2 LT">
+                                <div class="info_card">
+                                    <p>
+                                        <h4>Glifopac 1/2 LT</h4>
+                                    </p>
+                                    <div class="container_grid">
+                                        <div class="contenedor_precio">
+                                            <p class="texto_precio">Precio Promoción</p>
+                                            <p class="precio"><span>$5.80</span></p>
+                                        </div>
+                                        <!-- <div class="stock_container">
+                                            <p class="Stock">Stock:</p>
+                                            <p class="Disponible-agotado">Disponible</p>
+                                        </div> -->
+                                    </div>
+                                    <!-- <div class="descripcion-">
+                                        <h3 class="Titulo_desc">Descripcion</h3>
+                                        <p class="parrafo-desc">Lorem ipsum dolor sit</p>
+                                    </div> -->
+                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Pedido</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="animals">
+                    <div class="container_img product-item card">
+                        <div class="four columns13">
+                            <div class="card">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/Paleta_chanul_grande.png" alt="Paleta de chanul Grande">
+                                <div class="info_card">
+                                    <p>
+                                        <h4>Paleta de Chanul Grande</h4>
+                                    </p>
+                                    <div class="container_grid">
+                                        <div class="contenedor_precio">
+                                            <p class="texto_precio">Precio</p>
+                                            <p class="precio"><span>$3.50</span></p>
+                                        </div>
+                                        <!-- <div class="stock_container">
+                                            <p class="Stock">Stock:</p>
+                                            <p class="Disponible-agotado">Disponible</p>
+                                        </div> -->
+                                    </div>
+                                    <div class="descripcion-">
+                                        <h3 class="Titulo_desc">Descripcion</h3>
+                                        <p class="parrafo-desc">Proceso de secado al horno.</p>
+                                    </div>
+                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Pedido</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="animals">
+                    <div class="container_img product-item card">
+                        <div class="four columns13">
+                            <div class="card">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/paleta_chanul_pequeña.png" alt="Paleta de chanul pequeña">
+                                <div class="info_card">
+                                    <p>
+                                        <h4>Paleta de Chanul Pequeña</h4>
+                                    </p>
+                                    <div class="container_grid">
+                                        <div class="contenedor_precio">
+                                            <p class="texto_precio">Precio</p>
+                                            <p class="precio"><span>$2.00</span></p>
+                                        </div>
+                                        <!-- <div class="stock_container">
+                                            <p class="Stock">Stock:</p>
+                                            <p class="Disponible-agotado">Disponible</p>
+                                        </div> -->
+                                    </div>
+                                    <div class="descripcion-">
+                                        <h3 class="Titulo_desc">Descripcion</h3>
+                                        <p class="parrafo-desc">Proceso de secado al horno.</p>
+                                    </div>
+                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Pedido</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="animals">
+                    <div class="container_img product-item card">
+                        <div class="four columns13">
+                            <div class="card">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/Plomada.png" alt="Paleta de chanul pequeña">
+                                <div class="info_card">
+                                    <p>
+                                        <h4>Plomada</h4>
+                                    </p>
+                                    <div class="container_grid">
+                                        <div class="contenedor_precio">
+                                            <p class="texto_precio">Precio</p>
+                                            <p class="precio"><span>$3.10</span></p>
+                                        </div>
+                                        <!-- <div class="stock_container">
+                                            <p class="Stock">Stock:</p>
+                                            <p class="Disponible-agotado">Disponible</p>
+                                        </div> -->
+                                    </div>
+                                    <div class="descripcion-">
+                                        <h3 class="Titulo_desc">Descripcion</h3>
+                                        <p class="parrafo-desc">Fabricación nacional.</p>
+                                    </div>
+                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Pedido</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="animals">
+                    <div class="container_img product-item card">
+                        <div class="four columns13">
+                            <div class="card">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/Nilon_corte_STIHL_3.00.png" alt="Paleta de chanul pequeña">
+                                <div class="info_card">
+                                    <p>
+                                        <h4>Nailon de corte 3.0mm</h4>
+                                    </p>
+                                    <div class="container_grid">
+                                        <div class="contenedor_precio">
+                                            <p class="texto_precio">Precio</p>
+                                            <p class="precio"><span>$36.96</span></p>
+                                        </div>
+                                        <!-- <div class="stock_container">
+                                            <p class="Stock">Stock:</p>
+                                            <p class="Disponible-agotado">Disponible</p>
+                                        </div> -->
+                                    </div>
+                                    <div class="descripcion-">
+                                        <h3 class="Titulo_desc">Descripcion</h3>
+                                        <p class="parrafo-desc">Rollo de 168m.</p>
+                                    </div>
+                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Pedido</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="animals">
+                    <div class="container_img product-item card">
+                        <div class="four columns13">
+                            <div class="card">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/Multimata_ZAP.png" alt="Paleta de chanul pequeña">
+                                <div class="info_card">
+                                    <p>
+                                        <h4>Mata Insectos ZAP!</h4>
+                                    </p>
+                                    <div class="container_grid">
+                                        <div class="contenedor_precio">
+                                            <p class="texto_precio">Precio</p>
+                                            <p class="precio"><span>$3.60</span></p>
+                                        </div>
+                                        <!-- <div class="stock_container">
+                                            <p class="Stock">Stock:</p>
+                                            <p class="Disponible-agotado">Disponible</p>
+                                        </div> -->
+                                    </div>
+                                    <div class="descripcion-">
+                                        <h3 class="Titulo_desc">Descripcion</h3>
+                                        <p class="parrafo-desc">Para insectos rastreros y voladores.</p>
+                                    </div>
+                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Pedido</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="animals">
+                    <div class="container_img product-item card">
+                        <div class="four columns13">
+                            <div id="card" class="card">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/Aceite STIHL Lt.png" alt="Aceite_STIHL_GL">
+                                <div class="info_card">
+                                    <p>
+                                        <h4>Aceite STIHL LT</h4>
+                                    </p>
+                                    <div class="container_grid">
+                                        <div class="contenedor_precio">
+                                            <p class="texto_precio">Precio</p>
+                                            <p class="precio"><span>$9.80</span></p>
+                                        </div>
+                                        <!-- <div class="stock_container">
+                                            <p class="Stock">Stock:</p>
+                                            <p class="Disponible-agotado">Disponible</p>
+                                        </div> -->
+                                    </div>
+                                    <!-- <div class="descripcion-">
+                                        <h3 class="Titulo_desc">Descripcion</h3>
+                                        <p class="parrafo-desc">Lorem ipsum dolor sit</p>
+                                    </div> -->
+                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Pedido</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+                <li class="animals">
+
+                    <div class="container_img product-item card">
+                        <div class="four columns13">
+                            <div class="card">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/Aceite STIHL pequeño.png" alt="Aceite_STIHL_GL">
+                                <div class="info_card">
+                                    <p>
+                                        <h4>Aceite STIHL 1/2 LT</h4>
+                                    </p>
+                                    <div class="container_grid">
+                                        <div class="contenedor_precio">
+                                            <p class="texto_precio">Precio</p>
+                                            <p class="precio"><span>$5.60</span></p>
+                                        </div>
+                                        <!-- <div class="stock_container">
+                                            <p class="Stock">Stock:</p>
+                                            <p class="Disponible-agotado">Disponible</p>
+                                        </div> -->
+                                    </div>
+                                    <!-- <div class="descripcion-">
+                                        <h3 class="Titulo_desc">Descripcion</h3>
+                                        <p class="parrafo-desc">Lorem ipsum dolor sit</p>
+                                    </div> -->
+                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+            </ol>
+            </div>
+
+    </section>
+
+    <div class="btn_volver">
+        <div class="contenedor_btn_volver">
+            <button type="text" class="btn-volver"> <a class="regresar_btn" href="./index.html"> Volver </a> </button>
+        </div>
+    </div>
+
+    <fieldset>
+        <h1 class="wtf">Generar Pedido</h1>
+        <div class="css-grid6">
+            <div class="UwU">
+                <div class="box">
+                    <h2 class="lol">Nombre</h2>
+                    <input type="text" name="" id="nombres" placeholder="Nombre" autocomplete="off">
+                </div>
+
+                <div class="box">
+                    <h2 class="lol">Direccion</h2>
+                    <input type="text" name="" id="Direccion" placeholder="Direccion" autocomplete="off">
+                </div>
+
+                <div class="box">
+                    <h2 class="lol">Nombre ferreteria</h2>
+                    <input type="text" name="" id="apellidos" placeholder="ferreteria" autocomplete="off">
+                </div>
+
+                <div class="box">
+                    <h2 class="owo">R.U.C</h2>
+                    <input type="text" name="" id="RUC" placeholder="RUC" autocomplete="off">
+                </div>
+
+            </div>
+            <div class="box">
+                <h2 class="uwu">Pedido</h2>
+                <textarea name="" id="mensaje" cols="30" rows="10" placeholder="Ingrese su pedido"></textarea>
+            </div>
+
+        </div>
+        <div class="box">
+            <button id="send">Enviar</button>
+        </div>
+        <footer class="derechos_autor2">
+            <div class="contenedor_derechos2">
+                <small Style=>&copy; 2022 - 2025 <b>FC-Distribuiciones</b> - Todos los Derechos Reservados</small>
+            </div>
+        </footer>
+    </fieldset>
+
+    <!--  Carrito de Compras JS  -->
+
+    <script src="../js/carrito.js"></script>
+
+    <!--  Enviar Pedido JS  -->
+
+    <script src="./js/enviar.js"></script>
+
+    <!--  Buscador JS  -->
+
+    <script src="./js/buscador.js"></script>
+    <script src="/static/js/2.ccba4e8b.chunk.js"></script>
+    <script src="/static/js/main.fb81a97b.chunk.js"></script>
+</body>
+
+</html>
