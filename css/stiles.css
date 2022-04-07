@@ -1080,6 +1080,13 @@ Input#RUC {
         text-align: center;
         gap: 0px;
     }
+    .css_grid3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) !important;
+        row-gap: 0px;
+        text-align: center;
+        gap: 0px;
+    }
     .products-list {
         margin-left: 25px !important;
     }
@@ -1135,5 +1142,15 @@ Input#RUC {
     }
     div.four {
         overflow: hidden;
+    }
+    #mensaje {
+        width: 210px !important;
+        margin-left: 0px !important;
+    }
+    #send {
+        margin-top: 20px;
+    }
+    .container_img {
+        padding: 0px;
     }
 }
