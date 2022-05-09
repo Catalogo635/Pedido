@@ -430,6 +430,27 @@ a:hover {
 
 /*  Contenedor productos  */
 
+.cont_1_1 {
+    background-color: #46709e;
+}
+
+.cont_2_2 {
+    background-color: #46709e;
+}
+
+.cont_3_3 {
+    background-color: #46709e;
+}
+
+.cont_4_4 {
+    background-color: #46709e;
+}
+
+.des_cuadro {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .img {
     margin: 50px auto;
 }
