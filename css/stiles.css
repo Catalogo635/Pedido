@@ -395,7 +395,7 @@ a:hover {
 
 #contenedor ul {
     list-style: none;
-    width: 2800px;
+    width: 3500px;
     display: flex;
     animation: slide 20s infinite alternate;
 }
@@ -404,29 +404,34 @@ a:hover {
     0% {
         margin-left: 0px;
     }
-    20% {
+    10% {
         margin-left: 0px;
+    }
+    15% {
+        margin-left: -700px;
     }
     25% {
         margin-left: -700px;
     }
+    30% {
+        margin-left: -1400px;
+    }
     45% {
-        margin-left: -700px;
+        margin-left: -1400px;
     }
     50% {
-        margin-left: -1400px;
-    }
-    70% {
-        margin-left: -1400px;
-    }
-    75% {
         margin-left: -2100px;
     }
-    100% {
+    60% {
         margin-left: -2100px;
+    }
+    65% {
+        margin-left: -2800px;
+    }
+    80% {
+        margin-left: -2800px;
     }
 }
-
 
 /*  Contenedor productos  */
 
